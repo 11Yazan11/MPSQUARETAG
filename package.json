@@ -1,0 +1,16 @@
+{
+  "name": "2-players-square-tag-v3.3",
+  "version": "3.0.3",
+  "description": "New release : v3.3 : Play 2 Players Square Tag at a whole new level of excitement !",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "http": "^0.0.1-security",
+    "mangodb": "^1.0.0",
+    "rcedit": "^4.0.1",
+    "socket.io": "^4.8.0"
+  }
+}
