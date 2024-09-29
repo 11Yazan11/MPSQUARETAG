@@ -9,7 +9,7 @@
   "dependencies": {
     "express": "^4.21.0",
     "http": "^0.0.1-security",
-    "mangodb": "^1.0.0",
+    "mongodb": "^5.7.0",
     "rcedit": "^4.0.1",
     "socket.io": "^4.8.0"
   }
