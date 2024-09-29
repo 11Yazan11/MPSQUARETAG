@@ -7,7 +7,7 @@ const app = express();
 const server = http.createServer(app);
 const io = socketIo(server);
 
-const mongoUrl = 'mongodb+srv://yazanaljundi05:Espace2008.@cluster0.zxnvj.mongodb.net/gameDB?retryWrites=true&w=majority&appName=Cluster0';
+const mongoUrl = 'mongodb+srv://yazanaljundi05:Espace2008.@cluster0.zxnvj.mongodb.net/gameDB?retryWrites=true&w=majority&tls=true&appName=Cluster0';
 const dbName = 'gameDB';
 let db;
 
